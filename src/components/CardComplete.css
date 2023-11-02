@@ -1,0 +1,43 @@
+.general-card {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: #FFF7ED;
+    border: 1px solid #582D1D;
+    border-radius: 20px;
+}
+
+.card-general {
+    display: flex;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F5AE73;
+    font-size: 1.5rem;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-bottom: solid 1px #582D1D;
+}
+
+input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f4be93;
+    padding: 15px 0px;
+    font-weight: 300;
+    font-size: 2rem;
+    cursor: pointer;
+    text-shadow: -1px -1px 0 #111010, 1px -1px 0 #2c2a2a, -1px 1px 0 #9d9797, 1px 1px 0 #aea8a8;
+}
